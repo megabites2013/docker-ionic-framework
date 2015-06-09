@@ -22,6 +22,7 @@ RUN npm install -g cordova ionic
 RUN npm install -g grunt-cli
 RUN npm install -g gulp
 RUN npm install -g bower
+run npm install -g ionic
 
 RUN ionic start ionic-demo sidemenu
 
